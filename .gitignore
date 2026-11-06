@@ -1,0 +1,10 @@
+# 分析过程中产生的缓存/中间产物
+androguard.db
+__pycache__/
+*.pyc
+
+# 解密后的黑名单与原始 APK/数据库（体积大或敏感，不入库）
+*.apk
+*.db
+blacklist_decrypted.txt
+blacklist.txt
